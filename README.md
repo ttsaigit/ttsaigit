@@ -1,33 +1,32 @@
 ![TTS.ai](https://tts.ai/static/img/og/tts.png)
 
-# TTS.ai
+## TTS.ai - Open Source AI Voice Platform
 
-TTS.ai is a comprehensive AI voice platform with 18 text-to-speech models, voice cloning, speech-to-text, AI voice agents, and more. We believe AI voice technology should be accessible to everyone.
+The most comprehensive AI voice platform. 20+ TTS models, 9 voice cloning models, speech-to-text, AI voice agents, and audio tools. All open-source, all commercially-friendly.
 
-## What We Build
+### Our Open Source Projects
 
-- **Text-to-Speech** -- 18 AI models including Kokoro, Bark, StyleTTS2, Tortoise, and more
-- **Voice Cloning** -- Clone any voice with 8 supported models
-- **Speech-to-Text** -- Accurate transcription with Faster Whisper and SenseVoice
-- **AI Voice Agents** -- Build and deploy voice AI agents with phone integration
-- **Embeddable Widget** -- Add voice AI to any website with one line of code
+| Project | Description | Install |
+|---------|-------------|---------|
+| [tts-python](https://github.com/ttsaigit/tts-python) | Python SDK | `pip install ttsai` |
+| [tts-js](https://github.com/ttsaigit/tts-js) | JavaScript/Node.js SDK | `npm install @ttsainpm/ttsai` |
+| [tts-widget](https://github.com/ttsaigit/tts-widget) | Embeddable voice chat widget | One script tag |
 
-## Open Source
-
-| Repository | Description |
-|---|---|
-| [tts-python](https://github.com/ttsaigit/tts-python) | Python SDK for TTS.ai API |
-| [tts-js](https://github.com/ttsaigit/tts-js) | JavaScript/Node.js SDK for TTS.ai API |
-| [tts-widget](https://github.com/ttsaigit/tts-widget) | Embeddable AI voice chat widget |
-| [tts-android](https://github.com/ttsaigit/tts-android) | TTS.ai Android app |
-| [tts-ios](https://github.com/ttsaigit/tts-ios) | TTS.ai iOS app |
-
-## Links
+### Links
 
 - **Website**: [https://tts.ai](https://tts.ai)
-- **API Docs**: [https://tts.ai/api-docs/](https://tts.ai/api-docs/)
-- **Voice Agents**: [https://tts.ai/agents/](https://tts.ai/agents/)
+- **API Docs**: [https://tts.ai/api/](https://tts.ai/api/)
+- **Open Source Page**: [https://tts.ai/open-source/](https://tts.ai/open-source/)
+- **HuggingFace**: [https://huggingface.co/ttsdotai](https://huggingface.co/ttsdotai)
+- **PyPI**: [https://pypi.org/project/ttsai/](https://pypi.org/project/ttsai/)
+- **npm**: [https://www.npmjs.com/package/@ttsainpm/ttsai](https://www.npmjs.com/package/@ttsainpm/ttsai)
+
+### Models We Run
+
+Kokoro, Chatterbox, Sesame CSM, CosyVoice 2, Bark, Orpheus, Dia, GLM-TTS, GPT-SoVITS, IndexTTS-2, Spark, MeloTTS, OpenVoice, Parler, Piper, VITS, StyleTTS2, Tortoise, Qwen3-TTS, Faster Whisper, and more.
+
+All models are open-source with commercial-friendly licenses (Apache 2.0, MIT, Llama).
 
 ---
 
-MIT Licensed. Built by the TTS.ai team.
+MIT Licensed.
